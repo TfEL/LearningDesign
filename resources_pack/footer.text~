@@ -1,0 +1,17 @@
+TfEL for Learning Design offline access guide:
+
+	complete.zip 	- contains a copy of all resources used on the app and website.
+	why_important 	- folder containing resources for "What is the intended learning and why is it important?"
+	they_bring 	- folder containing resources for "What do they bring?"
+	this_level	- folder containing resources for "What could the intended learning look like at this level?"
+	evidence_assess	- folder containing resources for "What evidence will enable us to access the intended learning?"
+	engage_learning	- folder containing resources for "How will we engage, challenge and support their learning?"
+	design_tlp	- folder containing resources for "Design the teaching and learning plan."
+
+TfEL for Learning Design run on site guide:
+
+	rp_full.zip	- contains a copy of the entire site (app) for use on a local/school network server.
+				=> Requires PHP 5 or higher for dynamic page serving.
+				=> Note: may not be the latest version as the site is updated regularly.
+
+If you need any assistance please contact aiden.cornelius@sa.gov.au.

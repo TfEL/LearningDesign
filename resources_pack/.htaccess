@@ -1,0 +1,4 @@
+headername header.text
+readmename footer.text
+options +indexes
+indexignore *.text

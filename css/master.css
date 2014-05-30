@@ -1,0 +1,350 @@
+@charset "UTF-8";
+
+/* 	TfEL for Learning Design Stylesheet. 
+	© 2013 Aidan Cornelius-Bell. All Rights Reserved. 
+	Developed by Beaconsfield IT for the Department of Education and Child Development.
+	
+	NOTES:
+	This stylesheet uses some CSS3 styles and includes a HTML5 reset. 
+	To use it you should really be running Chrome or Safari, Firefox should work too, IE as usual is a no go.
+*/
+
+/* Overarching styles, body, a, etc */
+body {
+	background: #CCCCCC;
+	margin: 0px 0px;
+	border: 0px 0px;	
+	font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Serif;
+	color: #FFF;
+	font-size: 13pt;
+	overflow: hidden;
+}
+
+strong { 
+	font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Serif;
+	font-weight: 800;
+	color: #FFF;
+	font-size: 13pt;
+}
+
+.ui-body-c, .ui-overlay-c { text-shadow:0 0 0; color: !important;}
+.ui-body-a { text-shadow:0 0 0; color: !important; }
+
+a:link { color: #FFF !important; text-decoration: none !important; font-weight: 200 !important;}
+a:visited { color: #FFF !important; text-decoration: none; }
+a:hover { color: #F2BA3E !important; text-decoration: none; }
+a:active { color: #F2BA3E !important; text-decoration: none; }
+
+
+/* Splash Screen Styles */
+
+#splash_screen_master_container {
+	height: 768px;
+	width: 1024px;
+	margin-right: auto;
+	margin-left: auto;
+	background: url(../images/splash_screen/splash_screen@2x.jpg);  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../images/splash_screen/splash_screen@2x.jpg', sizingMethod='scale');
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../images/splash_screen/splash_screen@2x.jpg', sizingMethod='scale')";
+	background-size: cover;
+}
+
+#splash_screen_padding_topmost {
+	padding-top: 550px;	
+}
+
+#splash_screen_ld_using_strat_from_the_tfel_fw_guide_dvd {
+	height: 49px;
+	width: 343px;
+	background: url(../images/splash_screen/ld_using_strat_from_the_tfel_fw_guide_dvd@2x.gif);  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../images/splash_screen/ld_using_strat_from_the_tfel_fw_guide_dvd@2x.gif', sizingMethod='scale');
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../images/splash_screen/ld_using_strat_from_the_tfel_fw_guide_dvd@2x.gif', sizingMethod='scale')";
+	background-size: cover;
+	margin-left: 650px;
+}
+
+#splash_screen_padding_mid {
+	padding-top: 10px;	
+}
+
+#splash_screen_using_tfel_for_ld_in_a_plc_movie {
+	height: 49px;
+	width: 343px;
+	background: url(../images/splash_screen/using_tfel_for_ld_in_a_plc_movie@2x.gif);  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../images/splash_screen/using_tfel_for_ld_in_a_plc_movie@2x.gif', sizingMethod='scale');
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../images/splash_screen/using_tfel_for_ld_in_a_plc_movie@2x.gif', sizingMethod='scale')";
+	background-size: cover;
+	margin-left: 650px;
+}
+
+/* Map Screen Styles */
+
+#map_screen_master_container {
+	height: 768px;
+	width: 1024px;
+	margin-right: auto;
+	margin-left: auto;
+	background: url(../images/map_screen/map_screen@2x.jpg) #CDCDE3;
+	background-size: cover;
+}
+
+#map_screen_padding_topmost {
+	padding-top: 270px;	
+}
+
+	#map_screen_row_1 {
+		margin-left: 205px;
+		width: 775px;
+		height: 110px;
+	}
+	
+		#map_screen_map_1 { position: absolute; width: 134px; height: 75px; background: url(../images/map_screen/map_1@2x.gif);  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../images/map_screen/map_screen@2x.jpg) #CDCDE3;
+	background-size: cover;
+}
+
+#map_screen_padding_topmost {
+	padding-top: 270px;	
+}
+
+	#map_screen_row_1 {
+		margin-left: 205px;
+		width: 775px;
+		height: 110px;
+	}
+	
+		#map_screen_map_1 { position: absolute; width: 134px; height: 75px; background: url(../images/map_screen/map_1@2x.gif', sizingMethod='scale');
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../images/map_screen/map_screen@2x.jpg) #CDCDE3;
+	background-size: cover;
+}
+
+#map_screen_padding_topmost {
+	padding-top: 270px;	
+}
+
+	#map_screen_row_1 {
+		margin-left: 205px;
+		width: 775px;
+		height: 110px;
+	}
+	
+		#map_screen_map_1 { position: absolute; width: 134px; height: 75px; background: url(../images/map_screen/map_1@2x.gif', sizingMethod='scale')"; background-size: cover; }
+		#map_screen_map_3 { position: absolute;  margin-left: 315px; width: 134px; height: 75px; background: url(../images/map_screen/map_3@2x.gif);  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../images/map_screen/map_3@2x.gif', sizingMethod='scale');
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../images/map_screen/map_3@2x.gif', sizingMethod='scale')"; background-size: cover; }
+		#map_screen_map_5 { position: absolute;  margin-left: 635px; width: 134px; height: 75px; background: url(../images/map_screen/map_5@2x.gif);  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../images/map_screen/map_5@2x.gif', sizingMethod='scale');
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../images/map_screen/map_5@2x.gif', sizingMethod='scale')"; background-size: cover; }
+
+#map_screen_padding_mid {
+	padding-top: 35px;	
+}
+
+	#map_screen_row_2 {
+		margin-left: 205px;
+		width: 736px;
+		height: 103px;
+	}
+	
+		#map_screen_map_2 { position: absolute; width: 134px; height: 75px; background: url(../images/map_screen/map_2@2x.gif);  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../images/map_screen/map_2@2x.gif', sizingMethod='scale');
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../images/map_screen/map_2@2x.gif', sizingMethod='scale')"; background-size: cover; }
+		#map_screen_map_4 { position: absolute;  margin-left: 315px; width: 134px; height: 75px; background: url(../images/map_screen/map_4@2x.gif);  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../images/map_screen/map_4@2x.gif', sizingMethod='scale');
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../images/map_screen/map_4@2x.gif', sizingMethod='scale')"; background-size: cover; }
+		#map_screen_map_6 { position: absolute;  margin-left: 635px; width: 134px; height: 75px; background: url(../images/map_screen/map_6@2x.gif);  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../images/map_screen/map_6@2x.gif', sizingMethod='scale');
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../images/map_screen/map_6@2x.gif', sizingMethod='scale')"; background-size: cover; }
+
+#map_screen_home_button {
+	position: absolute;
+	margin-top: 202px;
+	margin-left: 20px;
+	width: 52px;
+	height: 25px;
+	background: url(../images/map_screen/home_button@2x.gif);  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../images/map_screen/home_button@2x.gif', sizingMethod='scale');
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../images/map_screen/home_button@2x.gif', sizingMethod='scale')";
+	background-size: cover;
+}
+
+/* Map Screen #1 Styles */
+
+#map_1_screen_functions_container {
+	height: 768px;
+	width: 1024px;
+	margin-right: auto;
+	margin-left: auto;
+	background: url(../images/map1/splash_screen_blank@2x.gif);  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../images/map1/splash_screen_blank@2x.gif', sizingMethod='scale');
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../images/map1/splash_screen_blank@2x.gif', sizingMethod='scale')";
+	background-size: cover;
+}
+
+
+#map_1_screen_master_container {
+	height: 768px;
+	width: 1024px;
+	margin-right: auto;
+	margin-left: auto;
+	background: url(../images/map1/splash_screen@2x.png);  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../images/map1/splash_screen@2x.png', sizingMethod='scale');
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../images/map1/splash_screen@2x.png', sizingMethod='scale')";
+	background-size: cover;
+}
+
+#map_1_screen_container_left {
+	float:left;
+	padding-top: 230px;
+	height: 768px;
+	width: 280px;
+	padding-left: 35px;
+	margin-right: 15px;
+}
+
+#map_1_screen_container_right {
+	/* In this instance nothing is here, this is an empty container */
+}
+
+#map_1_screen_padding_top { 
+
+}
+
+#map_1_screen_padding_mid {
+
+}
+
+#map_1_video_container {
+	float:left;
+	padding-top: 180px;
+}
+#iframe_container iframe {
+	float:left;
+	height: 768px;
+	width: 690px;
+	overflow: scroll; -webkit-overflow-scrolling: scroll;
+}
+iframe { overflow: scroll; -webkit-overflow-scrolling: touch; }
+
+#want_more {
+	position: absolute;
+	bottom: 20px;
+	height: 28px;
+	width: 208px;
+	margin-right: auto;
+	margin-left: auto;
+	background: url(../images/map_screen/want_more@2x.png);  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../images/map_screen/want_more@2x.png', sizingMethod='scale');
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../images/map_screen/want_more@2x.png', sizingMethod='scale')";
+	background-size: cover;
+}
+
+/* Map Screen #2 Styles */
+
+#map_2_screen_functions_container {
+	height: 768px;
+	width: 1024px;
+	margin-right: auto;
+	margin-left: auto;
+	background: url(../images/map2/splash_screen_blank@2x.gif);  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../images/map2/splash_screen_blank@2x.gif', sizingMethod='scale');
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../images/map2/splash_screen_blank@2x.gif', sizingMethod='scale')";
+	background-size: cover;
+}
+
+
+#map_2_screen_master_container {
+	height: 768px;
+	width: 1024px;
+	margin-right: auto;
+	margin-left: auto;
+	background: url(../images/map2/splash_screen@2x.gif);  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../images/map2/splash_screen@2x.gif', sizingMethod='scale');
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../images/map2/splash_screen@2x.gif', sizingMethod='scale')";
+	background-size: cover;
+}
+
+/* Map Screen #3 Styles */
+
+#map_3_screen_functions_container {
+	height: 768px;
+	width: 1024px;
+	margin-right: auto;
+	margin-left: auto;
+	background: url(../images/map3/splash_screen_blank@2x.png);  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../images/map3/splash_screen_blank@2x.png', sizingMethod='scale');
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../images/map3/splash_screen_blank@2x.png', sizingMethod='scale')";
+	background-size: cover;
+}
+
+
+#map_3_screen_master_container {
+	height: 768px;
+	width: 1024px;
+	margin-right: auto;
+	margin-left: auto;
+	background: url(../images/map3/splash_screen@2x.png);  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../images/map3/splash_screen@2x.png', sizingMethod='scale');
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../images/map3/splash_screen@2x.png', sizingMethod='scale')";
+	background-size: cover;
+}
+
+
+/* Map Screen #4 Styles */
+
+#map_4_screen_functions_container {
+	height: 768px;
+	width: 1024px;
+	margin-right: auto;
+	margin-left: auto;
+	background: url(../images/map4/splash_screen_blank@2x.png);  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../images/map4/splash_screen_blank@2x.png', sizingMethod='scale');
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../images/map4/splash_screen_blank@2x.png', sizingMethod='scale')";
+	background-size: cover;
+}
+
+
+#map_4_screen_master_container {
+	height: 768px;
+	width: 1024px;
+	margin-right: auto;
+	margin-left: auto;
+	background: url(../images/map4/splash_screen@2x.png);  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../images/map4/splash_screen@2x.png', sizingMethod='scale');
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../images/map4/splash_screen@2x.png', sizingMethod='scale')";
+	background-size: cover;
+}
+
+
+/* Map Screen #5 Styles */
+
+#map_5_screen_functions_container {
+	height: 768px;
+	width: 1024px;
+	margin-right: auto;
+	margin-left: auto;
+	background: url(../images/map5/splash_screen_blank@2x.png);  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../images/map5/splash_screen_blank@2x.png', sizingMethod='scale');
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../images/map5/splash_screen_blank@2x.png', sizingMethod='scale')";
+	background-size: cover;
+}
+
+
+#map_5_screen_master_container {
+	height: 768px;
+	width: 1024px;
+	margin-right: auto;
+	margin-left: auto;
+	background: url(../images/map5/splash_screen@2x.png);  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../images/map5/splash_screen@2x.png', sizingMethod='scale');
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../images/map5/splash_screen@2x.png', sizingMethod='scale')";
+	background-size: cover;
+}
+
+
+/* Map Screen #6 Styles */
+
+#map_6_screen_functions_container {
+	height: 768px;
+	width: 1024px;
+	margin-right: auto;
+	margin-left: auto;
+	background: url(../images/map6/splash_screen_blank@2x.png);  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../images/map6/splash_screen_blank@2x.png', sizingMethod='scale');
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../images/map6/splash_screen_blank@2x.png', sizingMethod='scale')";
+	background-size: cover;
+}
+
+
+#map_6_screen_master_container {
+	height: 768px;
+	width: 1024px;
+	margin-right: auto;
+	margin-left: auto;
+	background: url(../images/map6/splash_screen@2x.png);  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../images/map6/splash_screen@2x.png', sizingMethod='scale');
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../images/map6/splash_screen@2x.png', sizingMethod='scale')";
+	background-size: cover;
+}
+
+/* Description Text */
+
+.desctext { color: #F2BA3E; text-decoration: none; }
+

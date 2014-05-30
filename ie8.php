@@ -1,0 +1,6 @@
+<html>
+<body bgcolor="#F0F0F0">
+<center>
+<div style="color: #666659;"><p><br/>To use a full version of this website you need an iPad with iOS 7 or newer, Google Chrome or Apple Safari (not available on DECD Admin computers).<br /><br /><br />You can view a basic (text only) version of this site <a href="/basic/map.php#ie8_ref" style="color:#666659;">here</a>. Alternatively download from the AppStore on an iPad <a href="https://itunes.apple.com/au/app/tfel-for-learning-design/id805859202?mt=8" style="color:#666659;">here</a>.</p></div></div><br /><br /><br /><center><a href='https://itunes.apple.com/au/app/tfel-for-learning-design/id805859202?mt=8'><img src='/downloadOnTheAppStore270-80@2x.png' width='270px' /></a></center><br /><br /><br /><br /><br /><a href="http://google.com/chrome" target="_blank"><img src="http://learningdesign.sa.edu.au/images/map_screen/get_chrome@2x.gif" width="540px" height="145px" /></a><br /><br /><br /><br /><br /><a href="http://apple.com/safari" target="_blank"><img src="http://learningdesign.sa.edu.au/images/map_screen/get_safari@2x.gif" width="540px" height="145px" /></a></center>
+</body>
+</html>
